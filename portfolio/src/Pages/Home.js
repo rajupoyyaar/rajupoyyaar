@@ -11,7 +11,7 @@ function Home(){
     useEffect(()=>{
         const fetchData = async()=>{
             try{
-                const response = await fetch("http://localhost:5002/api/technologies")
+                const response = await fetch("https://rajupoyyaar.onrender.com/api/technologies")
                 const data = await response.json();
                 setTechnologies(data)
             }
@@ -35,7 +35,7 @@ function Home(){
 
          <div className="technologies">
             <h3>I created endpoint to fetch my familiar Technologies</h3>
-            <p>http://localhost:5001/api/technologies</p>   
+            <p>https://rajupoyyaar.onrender.com/api/technologies</p>   
             <div className="technology-grid">
                 <h2>My Familiar Technologies are</h2>
                 <Grid container spacing={2}>

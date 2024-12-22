@@ -18,7 +18,7 @@ const Contact = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const response = await axios.post('http://localhost:5002/api/technologies/message', formData);
+            const response = await axios.post('https://rajupoyyaar.onrender.com/api/technologies/message', formData);
             setResponseMessage(response.data.message);
             setFormData({ name: '', email: '', message: '' }); // Reset form
         } catch (error) {
