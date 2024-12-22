@@ -1,0 +1,59 @@
+.hero{
+display: flex;
+flex-direction: row;
+align-items: center;
+margin-top: 5%;
+}
+
+.profile {
+    width: 30%;
+}
+
+.profile img{
+    border: none;
+    border-radius: 50%;
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+.about-profile{
+    width: 70%;
+}
+
+.about-profile p{
+    font-size: 22px;
+    font-family:'Times New Roman', Times, serif;
+    padding-right: 20px;
+}
+
+.technologies{
+    background-color: rgb(31, 30, 30);
+    color: white;
+    text-align: center;
+    margin-top: 35px;
+    padding: 20px;
+}
+
+.technology-grid{
+    margin-top: 40px;
+}
+
+
+.technology-grid img{
+    width: 200px;
+    padding-top: 10px;
+    display: block;
+    margin:0 auto;
+    transition: transform .2s;
+}
+
+.technology-grid img:hover{
+    transform: scale(1.2);
+}
+
+@media only screen and (max-width: 600px) {
+    .about-profile p{
+        font-size: 12px;
+    }
+  }

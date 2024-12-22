@@ -1,0 +1,10 @@
+/* projects.css */
+.projects-container {
+    padding: 2rem 0;
+}
+.project-card {
+    transition: transform 0.3s ease-in-out;
+}
+.project-card:hover {
+    transform: scale(1.05);
+}

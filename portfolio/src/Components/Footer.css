@@ -1,0 +1,29 @@
+.footer-container {
+    background-color: #0A192F;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  .footer-text {
+    margin: 5px 0;
+  }
+  
+  .footer-container a {
+    color: blanchedalmond;
+    text-decoration: none;
+  }
+  
+  .footer-container a:hover {
+    color: white;
+  }
+
+  
+  @media only screen and (max-width: 600px) {
+    .footer-text{
+        font-size: 12px;
+    }
+  }
